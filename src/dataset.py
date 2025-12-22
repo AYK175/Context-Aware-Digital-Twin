@@ -6,7 +6,7 @@ from pathlib import Path
 def build_instruction_pairs(messages, user_name: str):
     """
     Converts chat messages into instruction/response pairs
-    suitable for SFT.
+    suitable for SFT training.
     """
     pairs = []
 

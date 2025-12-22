@@ -3,7 +3,7 @@
 # ------------------
 # Paths
 # ------------------
-RAW_CHAT_PATH = "data/chat.txt"
+RAW_CHAT_PATH = "data/_chat.txt"
 PROCESSED_DIR = "data/processed"
 CHROMA_DIR = "data/chroma"
 MODEL_OUTPUT_DIR = "outputs/final"
@@ -25,7 +25,7 @@ RAG_TOP_K = 5
 
 # ------------------
 # Training
-# ------------------
+# ----------------
 TRAIN_EPOCHS = 20
 LEARNING_RATE = 2e-4
 BATCH_SIZE = 5

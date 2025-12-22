@@ -17,7 +17,7 @@ def clean_text_content(text: str) -> str | None:
 
 def process_chat(file_path: str):
     """
-    Parses WhatsApp chat exports and merges multiline messages.
+    Parses chat exports and merges multiline messages.
     """
     messages = []
     current_msg = None

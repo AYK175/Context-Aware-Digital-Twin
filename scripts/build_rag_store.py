@@ -2,7 +2,7 @@
 from src.cleaning import process_chat
 from src.rag import MemoryRAG
 
-CHAT_FILE = "data/chat.txt"
+CHAT_FILE = "data/_chat.txt"
 
 def main():
     print("Loading and cleaning chat...")

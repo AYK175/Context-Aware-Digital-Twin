@@ -2,7 +2,7 @@
 from src.inference import ask_final
 
 while True:
-    msg = input("You: ")
+    msg = input("You : ")
     if msg.lower() in {"exit", "quit"}:
         break
 

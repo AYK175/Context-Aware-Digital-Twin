@@ -36,7 +36,7 @@ User: {message}
     outputs = model.generate(
         **inputs,
         max_new_tokens=40,
-        temperature=0.4,
+        temperature=0.1,
         repetition_penalty=1.2,
         top_p=0.9,
         do_sample=True,

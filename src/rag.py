@@ -28,7 +28,7 @@ class MemoryRAG:
 
     def add_texts(self, texts):
         """
-        Batch-safe ingestion into ChromaDB
+        Batch-safe ingestion into vector ChromaDB
         """
         for i in tqdm(range(0, len(texts), self.batch_size)):
             batch = texts[i : i + self.batch_size]

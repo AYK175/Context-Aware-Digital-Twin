@@ -29,7 +29,7 @@ def train():
             num_train_epochs=TRAIN_EPOCHS,
             learning_rate=LEARNING_RATE,
             fp16=True,
-            logging_steps=50,
+            logging_steps=60,
             save_steps=500,
             save_total_limit=2,
             report_to="none"
