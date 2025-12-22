@@ -1,0 +1,10 @@
+torch
+transformers
+trl
+datasets
+chromadb
+sentence-transformers
+unsloth
+accelerate
+bitsandbytes
+
